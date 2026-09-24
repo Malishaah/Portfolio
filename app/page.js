@@ -5,7 +5,7 @@ import Portrait from './portrait';
 import projects from './projects.json';
 export default function Home(){return <main id="main-content" tabIndex={-1}>
 <section className="hero wrap">
- <div className="hero-copy"><p className="eyebrow">UX · UI · Frontend</p><h1>Developer<br/><span className="serif-line">| Designer.</span></h1><p className="hero-description">I combine user insight, visual design and frontend craft to create accessible digital products that feel simple to use.</p><div className="hero-actions"><Link className="button primary" href="#selected-work">View selected work</Link><a className="button secondary" href={cvUrl}><Icon name="document"/>View CV</a></div></div>
+ <div className="hero-copy"><p className="eyebrow">UX · UI · Frontend</p><h1>Complex made<br/><span className="serif-line">clear.</span></h1><p className="hero-description">I combine user insight, visual design and frontend craft to create accessible digital products that feel simple to use.</p><div className="hero-actions"><Link className="button primary" href="#selected-work">View selected work</Link><a className="button secondary" href={cvUrl}><Icon name="document"/>View CV</a></div></div>
  <div className="portrait-composition"><Portrait className="portrait-mat" priority/></div>
 </section>
 <div className="work-surface"><section className="selected-work wrap" id="selected-work"><div className="section-heading"><h2>Selected <em>work</em></h2><Link className="text-link" href="/projects">Explore all work</Link></div><ProjectGrid projects={projects.slice(0,4)}/></section></div>
