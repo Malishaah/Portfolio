@@ -118,3 +118,12 @@ main,.footer{position:relative;z-index:1}
 .contact-options strong{font-size:22px;font-weight:500;letter-spacing:-.025em}
 .contact-options>a:hover .contact-icon{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 @media(max-width:760px){.email-identity{gap:14px}.contact-icon-primary{width:50px;height:50px}.email-address{font-size:clamp(21px,6vw,32px)}.contact-options{gap:0}.contact-options>a{min-height:96px;padding:18px 4px;border-left:0!important}.contact-options strong{font-size:22px}.contact-options small{font-size:12px}}
+
+/* Single-surface project artwork — no stacked rectangular frames */
+.project-visual{padding:0;overflow:hidden;background:var(--soft);border-radius:22% 4% 18% 7% / 15% 8% 20% 10%;box-shadow:0 22px 55px rgba(60,41,37,.075)}
+.project-visual::before{display:none}
+.project-card:nth-child(2n) .project-visual{border-radius:5% 22% 6% 18% / 17% 8% 19% 6%}
+.project-card:nth-child(3n) .project-visual{border-radius:20% 6% 17% 4% / 7% 18% 9% 20%}
+.project-visual>img{display:block;width:100%;aspect-ratio:1.38;object-fit:cover;border-radius:0;box-shadow:none;transform:scale(1.28);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.project-card:hover .project-visual>img{transform:scale(1.32)}
+@media(max-width:760px){.project-visual{padding:0;border-radius:9% 3% 11% 4% / 8% 11% 5% 10%}.project-card:nth-child(2n) .project-visual{border-radius:4% 11% 3% 9% / 10% 6% 11% 5%}.project-visual>img{border-radius:0}}
