@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import {load} from 'cheerio';
+const base='https://maliroshanshah.framer.website';
+const slugs=['its-learning','trackoon-privacy-tool','movekind','västtrafik-app','bee-rise-game','bloom-ecommerce-plants','exploid-game'];
+const cache=new Map();
+async function asset(url){if(!url)return ''; if(cache.has(url))return cache.get(url); const u=new URL(url); u.searchParams.set('scale-down-to','2048');const name=u.pathname.split('/').pop();const local='/assets/'+name; const r=await fetch(u);if(!r.ok)throw Error(url);await fs.writeFile('public'+local,Buffer.from(await r.arrayBuffer()));cache.set(url,local);return local;}
+const projects=[];
+for(const slug of slugs){const r=await fetch(base+'/project-details/'+encodeURIComponent(slug));if(!r.ok)throw Error(slug);const html=await r.text();await fs.writeFile('reference/'+slug+'.html',html);const $=load(html);const main=$('main').first();const blocks=[];const seen=new Set();for(const el of main.find('figure,p,ul,ol,h2,h3,h4').toArray()){const e=$(el);if(e.parents('ul,ol,figure').length)continue;if(e.is('figure')){const src=e.find('img').attr('src');if(src&&!seen.has(src)){seen.add(src);blocks.push({type:'image',src:await asset(src)});}continue;}const key=e.text().trim();if(!key||seen.has(key))continue;seen.add(key);const copy=e.clone();copy.find('*').addBack().each((i,n)=>{for(const a of Object.keys(n.attribs||{}))if(a!=='href')$(n).removeAttr(a);});blocks.push({type:'html',html:$.html(copy)});}projects.push({slug,title:$('h1').first().text(),description:$('header p').first().text(),blocks});}
+await fs.writeFile('app/projects.json',JSON.stringify(projects,null,2));
+const home=load(await fs.readFile('reference/home.html','utf8'));const about=load(await fs.readFile('reference/about.html','utf8'));await fs.writeFile('app/about.json',JSON.stringify(about('header p').map((i,e)=>about(e).text()).get()));
+const rules=home('style').text().match(/@font-face\s*\{[^}]+}/g)||[];let fonts='';for(let rule of rules){if(!/font-family:\s*['"]?(Satoshi|Playfair Display)/.test(rule)||!/font-style:\s*normal/.test(rule))continue;if(rule.includes('unicode-range')&&!rule.includes('U+0000-00FF'))continue;const url=rule.match(/url\(['"]?([^)'"\s]+)/)?.[1];if(!url)continue;rule=rule.replace(url,await asset(url));fonts+=rule+'\n';}await fs.writeFile('app/fonts.css',fonts);
+console.log('Imported',projects.length,'case studies and',cache.size,'assets');

@@ -1,0 +1,1143 @@
+[
+  {
+    "slug": "its-learning",
+    "title": "Itslearning – Mobile App Redesign",
+    "description": "Improving usability and accessibility through user research, usability testing, and iterative redesign.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/assets/msrwO0KYGpCp4V8lCjCp2KLSBE.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>Client:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Academic UX Project</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Scope:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>UX Research • Usability Testing • Information Architecture • UX/UI Design • Prototyping • Validation Testing</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Year:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>2026</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>OVERVIEW</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Itslearning is a learning management system widely used by educational institutions. During this academic project, our team redesigned the mobile application to improve usability, accessibility, and the overall student experience.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The project followed a complete UX process, including user research, usability testing, redesign, and validation testing. Our goal was to simplify navigation, reduce frustration, and make important information easier to find.<br><br><br><strong>THE CHALLENGE<br><br></strong>Students frequently struggled to complete simple tasks inside the app.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The biggest usability issues included:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Finding the final course grade</p></li><li><p>Confusing navigation</p></li><li><p>Unclear information architecture</p></li><li><p>External browser views interrupting the experience</p></li><li><p>Inconsistent terminology</p></li><li><p>Poor visibility of important information</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>These issues increased cognitive load and forced users to spend unnecessary time searching for information.<br><br><br><strong>MY ROLE<br><br></strong>I worked closely with my team throughout the entire UX process.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>My responsibilities included:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Planning usability tests</p></li><li><p>Writing user scenarios and test tasks</p></li><li><p>Moderating usability sessions</p></li><li><p>Observing user behaviour</p></li><li><p>Recording insights</p></li><li><p>Analysing qualitative and quantitative data</p></li><li><p>Creating wireframes and UI concepts in Figma</p></li><li><p>Participating in redesign decisions</p></li><li><p>Validating the final prototype</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>RESEARCH AND TESTNING<br><br></strong>We conducted usability testing with <strong>5 students</strong> using both iOS and Android devices.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Each participant completed four realistic tasks:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Find a completed course</p></li><li><p>Find the course syllabus</p></li><li><p>Find an assignment grade</p></li><li><p>Find the final course grade</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We combined:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Task-based usability testing</p></li><li><p>First-click testing</p></li><li><p>Think Aloud</p></li><li><p>Observation</p></li><li><p>Likert scale questionnaires</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We measured:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Task Success Rate</p></li><li><p>Error Rate</p></li><li><p>Time on Task</p></li><li><p>User Satisfaction</p></li></ul>"
+      },
+      {
+        "type": "image",
+        "src": "/assets/lljqpiU7916ysIb8FiUZwP7t3M.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/QoD1miCXWA9YKVrFNBKBWszHyaY.png"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>KEY FINDNINGS<br><br></strong>Our research revealed several recurring usability problems.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Only <strong>1 out of 5 participants</strong> could find their final course grade without assistance.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Users frequently:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Clicked the wrong menu items</p></li><li><p>Became confused by the navigation</p></li><li><p>Didn't understand the difference between sections such as <em>Content</em> and <em>Planning</em></p></li><li><p>Lost control when the app opened external browser views</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>These findings showed that the information architecture did not match users' mental models.<br><br><br><strong>DESIGN SOLUTION<br><br></strong>Based on our findings, we redesigned several key areas of the application.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>FINAL GRADES</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Displayed directly on completed course cards</p></li><li><p>Added a dedicated Grades section<br><strong>INFORMATION ARCHITECTURE</strong></p></li><li><p>Clearer menu labels</p></li><li><p>Better organisation of course material</p></li><li><p>Simplified navigation hierarchy<br><strong>NATIVE EXPERIENCE</strong></p></li><li><p>Removed unnecessary browser redirects</p></li><li><p>Fully clickable course cards</p></li><li><p>Grouped courses into Current, Completed and Upcoming</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We also improved accessibility through better colour contrast, larger touch targets and clearer typography.<br><br><br><strong>VALIDATION<br><br></strong>We tested the redesigned prototype using the same tasks and measurements.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Compared to the original app, users:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Completed tasks faster</p></li><li><p>Made fewer mistakes</p></li><li><p>Found the final grade significantly easier</p></li><li><p>Reported higher satisfaction</p></li><li><p>Experienced less frustration</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The redesign successfully improved both efficiency and confidence.</p>"
+      }
+    ]
+  },
+  {
+    "slug": "trackoon-privacy-tool",
+    "title": "Trackoon – Privacy & Cookie Transparency Tool",
+    "description": "UX Research, Interaction Design & Privacy Experience",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/assets/DPYJblCjC2einE5KEgEEeWAwU.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>Client:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Academic Group Project</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Scope:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>UX Research, Content Design, Interaction Design, Prototyping, User Testing</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Year:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>2026</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>OVERVIEW</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Trackoon is a conceptual browser extension designed to help users better understand and manage cookies and user agreements online.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The project focuses on IT security with a specific emphasis on personal privacy. Today, users are often required to accept long and complex legal texts without fully understanding what they agree to.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Our goal was to create a tool that simplifies this information and makes it accessible to everyone — regardless of prior knowledge.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>RESEARCH QUESTIONS</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• How do users experience online privacy and security today?  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• How do users interact with long and complex terms &amp; conditions?  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• What would help users feel safer and more in control online?  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>TARGET GROUP</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The target group includes adults aged 18–65 in the EU with limited knowledge of digital privacy and data security.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We intentionally chose a broad audience to ensure inclusivity and to design a solution that works for a wide range of users.</p>"
+      },
+      {
+        "type": "image",
+        "src": "/assets/xG17oelzbVHln2WcycTwpKVAw.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/erTVLprabZGKjgHKIehJWVxuPj4.png"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>PROCESS &amp; ROLE</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This was a collaborative group project with flexible roles. My main responsibility was as Content &amp; Interaction Design Lead.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>I focused on:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Structuring and simplifying complex information  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Designing user flows and interactions  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Ensuring clarity and usability in the interface  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>RESEARCH</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>We conducted a mixed-method research process:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Focus group (4 participants)  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Survey (68 responses)  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Workshop (6 participants, 2 hours)  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• User testing (5 participants)  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We also performed thematic and statistical analysis using FigJam, Microsoft Forms, and Excel.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>WORKSHOP INSIGHT</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>In the workshop, we simulated real-world consent behavior by asking participants to sign long and complex terms under time pressure.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Later, we revealed hidden clauses in the text to provoke discussion around informed consent.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>This helped us understand:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Users often accept without reading  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Stress and time pressure affect decisions  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Trust and clarity are critical  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>KEY INSIGHTS</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Users do not understand terms and conditions  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Legal texts are too complex and overwhelming  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Many users automatically accept cookies for convenience  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• There is a lack of knowledge about privacy and rights  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Users want more control and transparency  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Needs vary greatly between individuals  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>One important finding was that 75% of users were interested in using a tool to better understand how their data is handled.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>SOLUTION</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>Based on our findings, we designed Trackoon as a browser extension that:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Summarizes terms and conditions in simple language  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Highlights key information first  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Allows users to explore details if needed (\"Read more\")  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Provides transparency about data usage  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Includes features like \"Clear Cookies\"  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Adapts to user preferences  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The tool also includes a visual mascot to guide users and create a more engaging experience.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>USER TESTING</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We tested the prototype with 5 users using think-aloud methods and A/B testing.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Key improvements included:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Clearer button design  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Reduced text and better summarization  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Improved visibility of key actions  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Better indication of privacy alignment with user preferences  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>REFLECTION</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We identified that more time for research and deeper technical understanding could have improved the project further.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>However, the project clearly demonstrated that there is a strong need for tools that make privacy understandable and accessible.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Trackoon aims to bridge the gap between complex legal systems and everyday users by turning passive consent into informed decisions.</p>"
+      }
+    ]
+  },
+  {
+    "slug": "movekind",
+    "title": "MoveKind – Accessible Workout & Rehab Platform",
+    "description": "UX Design, Accessibility, and Frontend Development",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/assets/mLA2mf99BwlkPujvNScnzJLiA8.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>Client:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Academic Project</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Scope:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>UX Design, Accessibility (WCAG), Frontend Development, CMS Integration</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Year:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>2025</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>OVERVIEW</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>MoveKind is a web-based workout and rehabilitation platform designed to provide short, accessible training sessions directly in the browser. The goal of the project was to create an intuitive and inclusive experience where users can easily follow exercises, understand instructions, and navigate the system without friction.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The main challenge was to design a system that supports accessibility while maintaining a clean and modern interface. Many existing platforms lack clear guidance, proper structure, and accessible interaction patterns, making it difficult for users to follow exercises or complete actions efficiently.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Through research, usability testing, and accessibility analysis, we identified key pain points such as unclear navigation, low contrast, and lack of structured guidance during workouts. These insights guided the redesign process and helped us focus on clarity, usability, and accessibility.</p>"
+      },
+      {
+        "type": "image",
+        "src": "/assets/Zrdt342JL8d5swYliB3P7salqs.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/9BQjlJ55ZxjJyOEqHRojexVzI.png"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>PROCESS &amp; SOLUTION</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The project followed an iterative design and development process, starting with defining the core user flow and building a minimum viable product. We designed key flows such as browsing workouts, viewing details, and completing guided exercise sessions.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>A strong focus was placed on accessibility (WCAG). The interface was structured with semantic HTML, clear heading hierarchy, and keyboard navigation support. We also implemented synchronized instruction overlays for videos, allowing users to follow exercises step by step with visual and textual guidance.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The user flow was simplified from browsing to checkout, reducing cognitive load and improving clarity. Key improvements included a cleaner category structure, better visual hierarchy, improved contrast, and clear call-to-action elements.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>TECH STACK</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• React + Next.js 14 (App Router) for modern frontend architecture and performance  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• TypeScript for type safety and scalability  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Umbraco 17 (Headless CMS) for content management  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Docker &amp; Docker Compose for reproducible environments and deployment  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>IMPACT</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Improved navigation and category structure  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Better accessibility through WCAG-aligned design  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Reduced cognitive load with clearer UI hierarchy  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Streamlined user flow from browsing to completion  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Enhanced usability with step-by-step guided interactions  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This project strengthened my understanding of accessibility, modern frontend architecture, and how to design user-centered experiences that are both functional and inclusive.</p>"
+      }
+    ]
+  },
+  {
+    "slug": "västtrafik-app",
+    "title": "Västtrafik App – UX Redesign",
+    "description": "UX Design, User Research & Design Thinking",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/assets/a0af6d4b60ab0eb2.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>Client:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Academic Project (Collaboration)</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Scope:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>UX Research, UX Design, Prototyping, Usability Testing</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Year:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>2025</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>OVERVIEW</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This project focused on improving the user experience of the Västtrafik app, with a strong emphasis on usability, clarity, and accessibility for a wide range of users.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The goal was to identify pain points in how users interact with the app—especially when navigating ticket options, understanding zones, and completing common tasks such as purchasing tickets.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Through surveys, interviews, and user observations, we discovered that many users experienced confusion around terminology, navigation structure, and information hierarchy. These issues were particularly challenging for users with different language backgrounds or limited familiarity with the system.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>By applying the Design Thinking process, we focused on understanding real user needs and translating them into clear, user-centered design improvements.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>PROCESS &amp; ROLE</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>I played a central role in both research and design throughout the project. I was responsible for structuring the workflow, setting up our project planning in Trello, and defining timelines for research, analysis, and design phases.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>RESEARCH</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>During the research phase, I contributed to designing surveys and interview questions, ensuring they were clear, unbiased, and accessible to users from different backgrounds. I participated as both moderator and observer in interviews, focusing on capturing user behaviors, patterns, and pain points.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>We conducted surveys and interviews, then analyzed the data using thematic clustering in Miro. This allowed us to identify key insights and define clear problem areas based on real user needs rather than assumptions.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>DESIGN &amp; PROTOTYPING</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>I was primarily responsible for wireframes and high-fidelity design in Figma. I worked on improving structure, visual hierarchy, and interaction flows, focusing on clarity and ease of use.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Key improvements included:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Simplified navigation and clearer structure</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Improved terminology and microcopy for better understanding</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Better visual hierarchy and readability</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• More intuitive user flows</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>TESTING &amp; ITERATION</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Through usability testing, we identified areas where users struggled, particularly with navigation and text clarity. Based on feedback, we refined the design to make interactions more intuitive and inclusive.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>IMPACT</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Reduced confusion in ticket selection and navigation</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Improved accessibility for users with different backgrounds</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• More intuitive and user-friendly interface</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Stronger alignment between user needs and design decisions</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This project strengthened my ability to work with real users, translate research into design decisions, and apply Design Thinking as an iterative process.</p>"
+      }
+    ]
+  },
+  {
+    "slug": "bee-rise-game",
+    "title": "Bee Rise – Game Design & Frontend Development",
+    "description": "Game Design, UX/UI, Animation & Frontend Development",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/assets/BWyCALk6S8SvaNBIhTVIQyXs7U.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>Client:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Academic Group Project</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Scope:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Game Design, UI Design, Animation, Frontend Development (TypeScript, HTML, CSS)</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Year:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>2025</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>OVERVIEW</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Bee Rise is a 2D browser-based game where the player controls a bee jumping between objects (flowers) to reach the highest possible score.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The gameplay is simple but progressively more challenging. Some flowers break after a single jump, while others remain stable. The player can also collect boosts in the form of honey, which allows the bee to temporarily fly higher.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>As the player progresses, the environment changes and new obstacles appear, including enemies that can end the game. The challenge increases as fewer platforms are available and timing becomes more critical.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The game is controlled using keyboard inputs (left and right), focusing on responsiveness and smooth interaction.</p>"
+      },
+      {
+        "type": "image",
+        "src": "/assets/xL1VEPgenl9vtZE6YublxtxqX8.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/BQLd8ao9ouY9BhsmYn8mweIzwE.png"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>PROCESS &amp; ROLE</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This was a collaborative group project where I had a major role in both design and frontend development.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>DESIGN &amp; ANIMATION</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>I was responsible for the overall visual design and concept of the game. I designed the main character (the bee), as well as environmental elements such as flowers, clouds, and visual assets.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>I also worked with animations and implemented them into the game, ensuring smooth movement and a playful, engaging visual experience.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>GAME FLOW &amp; UX</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>I contributed to designing the user flow, including:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Start menu  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Gameplay screens  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Pause menu  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Game over state  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The goal was to create a simple and intuitive experience where users can quickly understand how to play and stay engaged.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>FRONTEND DEVELOPMENT</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>In addition to design, I actively contributed to the frontend development using TypeScript, HTML, and CSS.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>I worked on implementing:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Game UI components  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Animations and interactions  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Visual behavior of elements  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Parts of the gameplay logic  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>IMPACT</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Created a cohesive visual identity for the game  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Improved user engagement through animation and interaction  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Built a functional and interactive browser-based game  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Strengthened collaboration between design and development  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This project helped me develop skills in combining design, animation, and frontend development into a complete interactive experience.</p>"
+      }
+    ]
+  },
+  {
+    "slug": "bloom-ecommerce-plants",
+    "title": "Bloom – Plant E-commerce Website",
+    "description": "Web Design, UX/UI & Frontend Development",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/assets/9eNnZDmLc11cbto4scc5HTJZPQ.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>Client:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Academic Group Project</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Scope:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>UX Design, UI Design, Frontend Development (TypeScript, JavaScript, CSS)</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Year:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>2025</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>OVERVIEW</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Bloom is a plant e-commerce website designed to provide a simple and enjoyable shopping experience for users looking to buy indoor and outdoor plants.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The project was developed as a group assignment during a frontend development course, combining both design and implementation.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The goal was to create a clean, user-friendly interface that allows users to easily browse, explore, and purchase plants.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>FEATURES</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Browse indoor and outdoor plants  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Product listing and detail pages  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Add to cart and checkout flow  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Responsive and structured layout  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Admin panel for managing products  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The platform focuses on clarity, accessibility, and ease of navigation to improve the overall shopping experience.</p>"
+      },
+      {
+        "type": "image",
+        "src": "/assets/uUNHiy3jnkZf4KtPgkL0cvBVycM.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/jkg5w6ezotylSK1u569mcIE44Ro.png"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>ROLE &amp; PROCESS</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This was a collaborative project where I worked primarily as a UX/UI Designer while also contributing to frontend development.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>My responsibilities included:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Designing the full user experience in Figma  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Creating layouts, components, and visual hierarchy  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Structuring product pages and navigation  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Collaborating on frontend implementation  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>UX DECISIONS</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>The design focused on simplicity and clarity:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Clear separation between indoor and outdoor plants  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Card-based layout for easy scanning  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Consistent buttons and actions (Buy, Edit, Delete)  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Clean typography and spacing for readability  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Special attention was given to making the interface intuitive for first-time users.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>ADMIN PANEL</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>An admin interface was also implemented, allowing:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Adding new products  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Editing existing items  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Deleting products  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This adds real-world functionality and demonstrates how the system can be managed dynamically.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>TECHNOLOGY</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>The project was built using:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• TypeScript  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• JavaScript  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• CSS  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>I collaborated with the team on implementing the UI and ensuring the design was accurately translated into code.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>REFLECTION</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This project helped me strengthen the connection between design and development.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>It improved my ability to:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Design with implementation in mind  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Collaborate in a team environment  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>• Build structured and scalable interfaces  </p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>It also gave me practical experience in creating a full user flow from browsing to checkout.</p>"
+      }
+    ]
+  },
+  {
+    "slug": "exploid-game",
+    "title": "Healthcare UX & Accessibility Redesign",
+    "description": "UX Research & Redesign",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/assets/2NyZ6bfdd7xH8X7VcTxi1bKsc.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>Client:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Academic Project</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Scope:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>UX Design, Accessibility, Research</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Year:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>2024</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>OVERVIEW</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>This project focused on improving the usability and accessibility of a healthcare e-commerce website.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>The original website had poor navigation, low color contrast, and a confusing user flow. Users struggled to find relevant treatments and complete actions efficiently.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Through accessibility analysis, user interviews, and usability testing, we identified key pain points and opportunities for improvement.</p>"
+      },
+      {
+        "type": "image",
+        "src": "/assets/JSfycBEAEGRWZzaEocXsoXmYhQ.png"
+      },
+      {
+        "type": "image",
+        "src": "/assets/07j8Rm4iexuCxxdxpqfDS5Y.png"
+      },
+      {
+        "type": "html",
+        "html": "<p>We redesigned the experience with a focus on clarity and simplicity.</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p><strong>Key improvements included:</strong></p>"
+      },
+      {
+        "type": "html",
+        "html": "<ul><li><p>Improved navigation and category structure</p></li><li><p>Better color contrast for accessibility</p></li><li><p>Reduced text and improved content hierarchy</p></li><li><p>Clear call-to-action buttons</p></li><li><p>More intuitive user flow</p></li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>I was responsible for accessibility analysis and led most of the final UI design.</p>"
+      }
+    ]
+  }
+]
