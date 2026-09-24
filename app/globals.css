@@ -102,3 +102,19 @@ main,.footer{position:relative;z-index:1}
 .case-meta dd,.case-nav a{font-size:14px}
 .footer-signature>span,.footer-links a,.copyright{font-size:12px}
 @media(max-width:760px){.eyebrow{font-size:11px}.brand-role{font-size:11px}.text-link{font-size:14px}.section-heading>.text-link{font-size:13px}.project-caption{margin-top:20px;padding-inline:2px}.project-meta{font-size:11px;padding-bottom:11px;margin-bottom:14px}.project-caption h3{font-size:27px}.project-caption p{font-size:16px}.filters button,.result-count{font-size:12px}.case-meta dt,.case-meta dd,.case-nav a{font-size:12px}.footer-signature>span,.footer-links a,.copyright{font-size:11px}}
+
+/* Contact icon hierarchy */
+.email-identity{display:flex;align-items:center;gap:20px;min-width:0}
+.contact-icon{width:48px;height:48px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;flex:0 0 auto;color:var(--accent)}
+.contact-icon .icon{width:19px;height:19px}
+.contact-icon-primary{width:58px;height:58px;background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.email-identity .eyebrow{margin-bottom:4px;color:var(--muted)}
+.email-identity .email-address{margin-top:0}
+.contact-options{gap:0;border-bottom:1px solid var(--line)}
+.contact-options>a{justify-content:flex-start;gap:18px;min-height:112px;padding:22px 24px;border-top:1px solid var(--line)}
+.contact-options>a+a{border-left:1px solid var(--line)}
+.contact-option-copy{display:flex;flex-direction:column;gap:5px}
+.contact-options small{font-size:12px;margin:0;color:var(--muted)}
+.contact-options strong{font-size:22px;font-weight:500;letter-spacing:-.025em}
+.contact-options>a:hover .contact-icon{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+@media(max-width:760px){.email-identity{gap:14px}.contact-icon-primary{width:50px;height:50px}.email-address{font-size:clamp(21px,6vw,32px)}.contact-options{gap:0}.contact-options>a{min-height:96px;padding:18px 4px;border-left:0!important}.contact-options strong{font-size:22px}.contact-options small{font-size:12px}}
