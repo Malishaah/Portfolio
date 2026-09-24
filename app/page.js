@@ -9,6 +9,5 @@ export default function Home(){return <main id="main-content" tabIndex={-1}>
  <div className="portrait-composition"><Portrait className="portrait-mat" priority/></div>
 </section>
 <div className="work-surface"><section className="selected-work wrap" id="selected-work"><div className="section-heading"><h2>Selected <em>work</em></h2><Link className="text-link" href="/projects">Explore all work</Link></div><ProjectGrid projects={projects.slice(0,4)}/></section></div>
-<section className="intro-section wrap"><div className="intro-content"><h2>Research-led.<br/><em>Ready to build.</em></h2><div className="intro-details"><p>My background spans graphic design, UX and frontend development. I can move from an unclear problem to a tested concept—and work closely with developers to make it real.</p><Link href="/about" className="text-link">About my approach</Link></div></div></section>
 <ContactBanner/>
 </main>;}

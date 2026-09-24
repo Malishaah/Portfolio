@@ -42,5 +42,4 @@ export default function CV(){return <main id="main-content" tabIndex={-1} classN
     </div>
   </section>
 
-  <section className="cv-close wrap"><p className="eyebrow">Nästa steg</p><h2>Vill du veta mer?</h2><p>Referenser lämnas på begäran. Hör gärna av dig om du vill prata om en roll, ett projekt eller ett samarbete.</p><a className="button primary" href="mailto:malirnsh@gmail.com"><Icon name="mail"/>Kontakta mig</a></section>
  </main>}

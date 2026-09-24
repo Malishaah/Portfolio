@@ -75,17 +75,17 @@ main,.footer{position:relative;z-index:1}
 
 /* Portrait shape */
 .portrait-mat,.about-photo,.cv-portrait{position:relative;overflow:visible;background:transparent;border:0;border-radius:0;box-shadow:none}
-.portrait-art{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 28px 32px rgba(60,41,37,.11));transform:rotate(.7deg)}
+.portrait-art{display:block;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 28px 32px rgba(60,41,37,.11));transform:rotate(-.5deg)}
 .portrait-outline{fill:none;stroke:rgba(238,237,232,.46);stroke-width:.32}
 .portrait-echo{fill:none;stroke:rgba(255,255,255,.7);stroke-width:.34;transform:translate(2.2px,-1.4px);stroke-linecap:round;stroke-linejoin:round}
-.portrait-mat{width:365px;height:475px;transform:none}
-.about-photo{height:475px;transform:none}
-.about-photo .portrait-art{transform:rotate(-.5deg) scaleX(-1)}
-.about-photo .portrait-art image{transform:scaleX(-1);transform-origin:center;transform-box:fill-box}
-.cv-portrait{width:370px;height:490px;transform:none}
-.cv-portrait .portrait-art{transform:rotate(.4deg)}
-@media(max-width:1100px){.portrait-mat{width:275px;height:365px}.about-photo{height:375px}.cv-portrait{width:300px;height:400px}}
-@media(max-width:760px){.portrait-mat{width:240px;height:320px}.about-photo{width:min(82%,320px);height:400px}.cv-portrait{width:min(78%,280px);height:373px}}
+.portrait-mat,.about-photo,.cv-portrait{width:370px;height:475px;transform:none;justify-self:center}
+@media(max-width:1100px){.portrait-mat,.about-photo,.cv-portrait{width:290px;height:375px}}
+@media(max-width:760px){.portrait-mat,.about-photo,.cv-portrait{width:min(82%,300px);height:390px}}
+
+/* A quieter, less repetitive page rhythm */
+.selected-work{padding-bottom:92px}
+.about-story{margin-bottom:88px}
+.cv-content{padding-bottom:30px}
 
 /* Readable typography and clearer project information hierarchy */
 .eyebrow{font-size:12px;line-height:1.5;letter-spacing:.13em}
