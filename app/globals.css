@@ -256,3 +256,23 @@ main,.footer{position:relative;z-index:1}
 .cv-next h2 em{color:var(--accent)}
 .cv-next .button{flex:0 0 auto;min-width:190px}
 @media(max-width:760px){.cv-next{margin-top:48px;padding:36px 0;align-items:flex-start;flex-direction:column;gap:28px}.cv-next h2{font-size:36px}.cv-next .button{width:100%}}
+
+/* Final type and action hierarchy across the portfolio */
+:root{--display-home:clamp(66px,6.5vw,92px);--display-page:clamp(54px,5.4vw,76px);--display-case:clamp(52px,5.6vw,78px);--section-title:clamp(38px,4vw,56px)}
+.hero h1{font-size:var(--display-home);line-height:.98}
+.page-heading h1,.about-top h1,.contact-title h1{font-size:var(--display-page);line-height:1.01;letter-spacing:-.055em}
+.case-intro h1{font-size:var(--display-case);line-height:1.02;letter-spacing:-.05em}
+.cv-heading h1{font-size:clamp(54px,5vw,74px);line-height:1;letter-spacing:-.05em}
+.section-heading h2,.about-story h2,.contact-banner h2{font-size:var(--section-title)}
+.page-heading .eyebrow,.about-top .eyebrow,.contact-page>.eyebrow,.cv-heading>.eyebrow,.case-intro .eyebrow{margin-bottom:18px;color:var(--accent)}
+.page-heading>p:last-child{max-width:620px;margin-top:22px;font-size:17px;line-height:1.65;color:var(--muted)}
+.about-top .lead,.contact-page>.lead,.cv-heading .lead{margin-top:24px;max-width:640px}
+.button{min-height:54px;padding:15px 23px;gap:10px;font-size:14px;font-weight:600;letter-spacing:-.005em}
+.hero-actions{gap:14px;margin-top:29px;flex-wrap:wrap}
+.primary{box-shadow:0 11px 28px rgba(60,41,37,.14),0 2px 7px rgba(60,41,37,.08)}
+.secondary{border-color:rgba(60,41,37,.72);box-shadow:0 7px 20px rgba(60,41,37,.075)}
+.secondary:hover{border-color:var(--ink);box-shadow:0 13px 30px rgba(60,41,37,.11)}
+.filters{gap:9px}.filters button{min-height:42px;padding:10px 17px;box-shadow:0 5px 14px rgba(60,41,37,.055)}.filters button[aria-pressed=true]{box-shadow:0 9px 22px rgba(60,41,37,.13)}
+.contact-actions{gap:12px}.contact-banner .button{min-width:230px}.contact-socials{gap:9px}
+.cv-contact{gap:9px}.cv-contact a{min-height:42px;padding:9px 15px;box-shadow:0 5px 16px rgba(60,41,37,.06)}
+@media(max-width:760px){:root{--display-home:clamp(50px,14vw,66px);--display-page:clamp(48px,13vw,62px);--display-case:clamp(46px,12.5vw,58px);--section-title:clamp(34px,10vw,44px)}.hero h1,.page-heading h1,.about-top h1,.contact-title h1,.case-intro h1{line-height:1.02}.cv-heading h1{font-size:clamp(34px,10.3vw,48px)}.page-heading .eyebrow,.about-top .eyebrow,.contact-page>.eyebrow,.cv-heading>.eyebrow,.case-intro .eyebrow{margin-bottom:14px}.page-heading>p:last-child,.about-top .lead,.contact-page>.lead,.cv-heading .lead{font-size:16px;margin-top:19px}.button{min-height:52px;padding:14px 19px}.hero-actions{gap:11px;margin-top:25px}.contact-banner .button{min-width:0}.filters{gap:7px}.filters button{min-height:42px;padding:10px 14px}}
