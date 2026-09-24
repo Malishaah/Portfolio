@@ -151,3 +151,35 @@ main,.footer{position:relative;z-index:1}
 .button:hover::after,.nav-contact:hover::after,.filters button:hover::after,.copy-email:hover::after,.contact-socials a:hover::after,.cv-contact a:hover::after,.menu-toggle:hover::after{transform:translateX(70%) rotate(8deg)}
 .button:active,.nav-contact:active,.filters button:active,.copy-email:active,.contact-socials a:active,.cv-contact a:active,.menu-toggle:active{transform:translateY(1px);box-shadow:0 5px 15px rgba(60,41,37,.10),0 1px 4px rgba(60,41,37,.05);transition-duration:.12s}
 @media(prefers-reduced-motion:reduce){.button,.nav-contact,.filters button,.copy-email,.contact-socials a,.cv-contact a,.menu-toggle,.button::after,.nav-contact::after,.filters button::after,.copy-email::after,.contact-socials a::after,.cv-contact a::after,.menu-toggle::after{transition:none}.button:hover,.nav-contact:hover,.filters button:hover,.copy-email:hover,.contact-socials a:hover,.cv-contact a:hover,.menu-toggle:hover{transform:none}}
+
+/* Refined active navigation indicator */
+.nav-links>a:not(.nav-contact){transition:color .3s ease}
+.nav-links>a[aria-current=page]:not(.nav-contact){color:var(--accent)}
+.nav-links>a[aria-current=page]:not(.nav-contact)::after{
+  width:100%;
+  height:2px;
+  left:0;
+  top:auto;
+  bottom:5px;
+  border-radius:999px;
+  background:linear-gradient(90deg,transparent 0,var(--accent) 22%,var(--accent) 78%,transparent 100%);
+  box-shadow:0 3px 9px rgba(112,83,62,.22);
+  transform:scaleX(1);
+  transform-origin:center;
+}
+.nav-links>a:not(.nav-contact)::before{
+  content:'';
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:5px;
+  height:2px;
+  border-radius:999px;
+  background:linear-gradient(90deg,transparent,var(--accent),transparent);
+  transform:scaleX(0);
+  transform-origin:center;
+  transition:transform .4s cubic-bezier(.16,1,.3,1);
+}
+.nav-links>a:not(.nav-contact):hover{color:var(--accent)}
+.nav-links>a:not(.nav-contact):hover::before{transform:scaleX(1)}
+@media(max-width:760px){.nav-links>a[aria-current=page]:not(.nav-contact)::after,.nav-links>a:not(.nav-contact)::before{left:18px;right:auto;bottom:5px;width:42px}.nav-links>a[aria-current=page]:not(.nav-contact)::after{transform:none}}
