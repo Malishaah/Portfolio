@@ -3,7 +3,6 @@ import Link from 'next/link';
 import {useState, useEffect, useRef} from 'react';
 import {usePathname} from 'next/navigation';
 import {projectInfo} from './project-info';
-import caseContent from './case-content.json';
 
 export function Arrow({diagonal=false, className=''}) {
   return <svg className={'arrow '+className} viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d={diagonal?'M5 19 19 5M5 5h14v14':'M4 12h16m-7-7 7 7-7 7'} stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>;
@@ -30,8 +29,7 @@ export function Navigation(){
 }
 export function ProjectCard({project}){
   const info=projectInfo[project.slug];
-  const caseStudyImage=caseContent[project.slug]?.blocks?.find(block=>block.type==='image')?.src;
-  const previewImage=caseStudyImage||project.blocks.find(block=>block.type==='image')?.src;
+  const previewImage=project.blocks.find(block=>block.type==='image')?.src;
   return <Link className="project-card" href={'/project-details/'+project.slug}><div className="project-visual"><img src={previewImage} alt={project.title+' preview'} loading="lazy" width="1000" height="700"/></div><div className="project-caption"><div className="project-meta"><span>{info.category}</span><time>{info.year}</time></div><h3>{info.name}</h3><p>{info.subtitle}</p></div></Link>;
 }
 export function ProjectGrid({projects,filters=false}){
