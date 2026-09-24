@@ -25,7 +25,7 @@ const skills=[
 
 export default function CV(){return <main id="main-content" tabIndex={-1} className="cv-page" lang="sv">
   <section className="cv-hero wrap">
-    <div className="cv-heading"><p className="eyebrow">Mali Roshanshah · CV</p><h1>UX-designer<br/><em>& frontendutvecklare.</em></h1><p className="lead">Jag gör komplexa digitala flöden tydliga, tillgängliga och möjliga att bygga — från research och prototyp till färdigt gränssnitt.</p><div className="cv-contact"><a href="mailto:mali@roshanshah.se"><Icon name="mail"/>mali@roshanshah.se</a><a href="https://www.linkedin.com/in/maliroshanshah/"><Icon name="linkedin"/>LinkedIn</a><a href="https://github.com/Malishaah"><Icon name="github"/>GitHub</a></div></div>
+    <div className="cv-heading"><p className="eyebrow">Mali Roshanshah · CV</p><h1>Developer<br/><em>| Designer.</em></h1><p className="lead">Jag gör komplexa digitala flöden tydliga, tillgängliga och möjliga att bygga — från research och prototyp till färdigt gränssnitt.</p><div className="cv-contact"><a href="mailto:mali@roshanshah.se"><Icon name="mail"/>mali@roshanshah.se</a><a href="https://www.linkedin.com/in/maliroshanshah/"><Icon name="linkedin"/>LinkedIn</a><a href="https://github.com/Malishaah"><Icon name="github"/>GitHub</a></div></div>
     <Portrait className="cv-portrait"/>
   </section>
 
