@@ -1,5 +1,6 @@
 import {Icon} from '../ui';
 import Portrait from '../portrait';
+import Link from 'next/link';
 
 export const metadata={title:'CV'};
 
@@ -40,6 +41,11 @@ export default function CV(){return <main id="main-content" tabIndex={-1} classN
       <section><div className="cv-section-title"><p className="eyebrow">Erfarenhet</p><span>Göteborg</span></div><div className="cv-list">{experience.map(item=><article className="cv-entry" key={item.role+item.company}><div><h2>{item.role}</h2><p className="cv-company">{item.company}</p></div><time>{item.date}</time><p>{item.text}</p></article>)}</div></section>
       <section><div className="cv-section-title"><p className="eyebrow">Utbildning</p><span>2012 - 2027</span></div><div className="cv-education">{education.map(([role,school,date])=><article key={role}><h3>{role}</h3><p>{school}</p><time>{date}</time></article>)}</div></section>
     </div>
+  </section>
+
+  <section id="cv-next" className="cv-next wrap" aria-label="Next step">
+    <div><p className="eyebrow">Nästa steg</p><h2>Se hur jag arbetar<br/><em>i praktiken.</em></h2></div>
+    <Link className="button primary" href="/projects">Se utvalda projekt</Link>
   </section>
 
  </main>}

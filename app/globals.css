@@ -248,3 +248,11 @@ main,.footer{position:relative;z-index:1}
 .next-project:focus-visible{outline:3px solid var(--accent);outline-offset:7px}
 @media(max-width:760px){.next-project{grid-template-columns:1fr;margin-top:58px;border-radius:30px 8px 30px 8px}.next-project-copy{padding:34px 28px}.next-project h2{font-size:40px;margin:13px 0 24px}.next-project-preview{min-height:190px;grid-row:1;clip-path:ellipse(100% 95% at 50% 0)}.next-project:hover{transform:translateY(-3px)}}
 @media(prefers-reduced-motion:reduce){.next-project,.next-project h2,.next-project-cta .arrow,.next-project-preview img{transition:none}.next-project:hover,.next-project:hover h2,.next-project:hover .next-project-cta .arrow,.next-project:hover .next-project-preview img{transform:none}}
+
+/* A single, focused next step at the end of the CV */
+.cv-next{margin-top:72px;padding:48px 0;border-block:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:48px}
+.cv-next .eyebrow{color:var(--accent);margin-bottom:13px}
+.cv-next h2{font-size:clamp(32px,3.5vw,48px);line-height:1.08}
+.cv-next h2 em{color:var(--accent)}
+.cv-next .button{flex:0 0 auto;min-width:190px}
+@media(max-width:760px){.cv-next{margin-top:48px;padding:36px 0;align-items:flex-start;flex-direction:column;gap:28px}.cv-next h2{font-size:36px}.cv-next .button{width:100%}}
