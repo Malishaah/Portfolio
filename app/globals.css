@@ -190,3 +190,9 @@ main,.footer{position:relative;z-index:1}
 .hero-title-result em{font-size:1.04em;color:var(--accent);letter-spacing:-.045em}
 @media(max-width:760px){.hero-title-result{font-size:.88em;margin-left:.28em;margin-top:.08em}}
 @media(max-width:390px){.hero-title-result{font-size:.84em;margin-left:.12em}}
+
+/* CV title reads as one professional role */
+.cv-heading h1{display:flex;align-items:baseline;gap:.16em;white-space:nowrap;font-size:clamp(58px,5.3vw,78px);letter-spacing:-.055em}
+.cv-heading h1 em{font-size:.9em;line-height:1;color:var(--accent)}
+.cv-title-separator{font-size:.55em;font-weight:300;color:var(--muted);transform:translateY(-.08em)}
+@media(max-width:760px){.cv-heading h1{font-size:clamp(36px,10.5vw,52px);gap:.12em}.cv-heading h1 em{font-size:.9em}.cv-title-separator{font-size:.5em}}
