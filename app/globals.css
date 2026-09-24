@@ -183,3 +183,10 @@ main,.footer{position:relative;z-index:1}
 .nav-links>a:not(.nav-contact):hover{color:var(--accent)}
 .nav-links>a:not(.nav-contact):hover::before{transform:scaleX(1)}
 @media(max-width:760px){.nav-links>a[aria-current=page]:not(.nav-contact)::after,.nav-links>a:not(.nav-contact)::before{left:18px;right:auto;bottom:5px;width:42px}.nav-links>a[aria-current=page]:not(.nav-contact)::after{transform:none}}
+
+/* Balanced editorial hero title */
+.hero-title-line{display:block;white-space:nowrap}
+.hero-title-result{font-size:.9em;line-height:1.02;margin-top:.03em;margin-left:.52em;letter-spacing:-.06em}
+.hero-title-result em{font-size:1.04em;color:var(--accent);letter-spacing:-.045em}
+@media(max-width:760px){.hero-title-result{font-size:.88em;margin-left:.28em;margin-top:.08em}}
+@media(max-width:390px){.hero-title-result{font-size:.84em;margin-left:.12em}}
