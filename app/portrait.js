@@ -3,7 +3,7 @@ export default function Portrait({className='',priority=false}){
   return <div className={className}>
     <svg className="portrait-art" viewBox="0 0 100 130" role="img" aria-label="Mali Roshanshah" preserveAspectRatio="xMidYMid meet">
       <defs><clipPath id="portrait-clip"><path d={path}/></clipPath></defs>
-      <image href="/assets/mali-portrait-spacious.jpg" width="100" height="133.3" y="-1.6" preserveAspectRatio="xMidYMid slice" clipPath="url(#portrait-clip)" fetchPriority={priority?'high':undefined}/>
+      <image href="/assets/mali-portrait-burnt-brown.png" width="100" height="133.3" y="-1.6" preserveAspectRatio="xMidYMid slice" clipPath="url(#portrait-clip)" fetchPriority={priority?'high':undefined}/>
       <path className="portrait-echo" d={path}/>
       <path className="portrait-outline" d={path}/>
     </svg>
