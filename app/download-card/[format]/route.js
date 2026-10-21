@@ -1,6 +1,6 @@
 const files={
-  png:{path:'/downloads/mali-roshanshah-business-card-v3.png',type:'image/png',name:'Mali-Roshanshah-Business-Card.png'},
-  svg:{path:'/downloads/mali-roshanshah-business-card-v3.svg',type:'image/svg+xml',name:'Mali-Roshanshah-Business-Card.svg'}
+  png:{path:'/downloads/mali-roshanshah-business-card-v4.png',type:'image/png',name:'Mali-Roshanshah-Business-Card.png'},
+  svg:{path:'/downloads/mali-roshanshah-business-card-v4.svg',type:'image/svg+xml',name:'Mali-Roshanshah-Business-Card.svg'}
 };
 
 export async function GET(request,{params}){

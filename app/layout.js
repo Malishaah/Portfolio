@@ -11,13 +11,13 @@ export const metadata={
     type:'website',
     title:'Mali Roshanshah — Developer | Designer',
     description:'Developer and designer turning complex journeys into clear, accessible digital products.',
-    images:[{url:'/social-card-v3.png',width:1200,height:630,alt:'Mali Roshanshah — Developer and Designer'}]
+    images:[{url:'/social-card-v4.png',width:1200,height:630,alt:'Mali Roshanshah — Developer and Designer'}]
   },
   twitter:{
     card:'summary_large_image',
     title:'Mali Roshanshah — Developer | Designer',
     description:'Developer and designer turning complex journeys into clear, accessible digital products.',
-    images:['/social-card-v3.png']
+    images:['/social-card-v4.png']
   }
 };
 export default function Layout({children}){return <html lang="en" data-scroll-behavior="smooth"><body><Background/><Navigation/>{children}<Footer/></body></html>;}
